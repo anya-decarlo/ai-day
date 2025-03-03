@@ -1,0 +1,13 @@
+📌 Step 1: Visualize Key Metrics
+
+✅ Generate Plots for Trends Over Epochs
+We need to see how the model is behaving before AI agents intervene.
+	1.	Loss Curves
+	•	Plot: train_loss & val_loss over epochs
+	•	Goal: Detect overfitting (if validation loss increases while training loss decreases).
+	2.	Performance Metrics Curves
+	•	Plot: dice_score, auroc, auprc over epochs
+	•	Goal: See if the model is improving consistently.
+	3.	Hyperparameter vs. Performance
+	•	Plot: learning_rate vs. dice_score
+	•	Goal: Check if LR changes correlate with model performance.

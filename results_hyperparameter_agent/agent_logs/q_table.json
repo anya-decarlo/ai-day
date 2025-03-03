@@ -1,0 +1,794 @@
+{
+  "improving": {
+    "learning_rate": {
+      "maintain": 0.05488135039273248,
+      "decrease": 0.07151893663724194,
+      "increase": 0.06027633760716439
+    },
+    "lambda_ce": {
+      "maintain": 0.05448831829968969,
+      "decrease": 0.042365479933890476,
+      "increase": 0.06458941130666561
+    },
+    "lambda_dice": {
+      "maintain": 0.04375872112626925,
+      "decrease": 0.08917730007820798,
+      "increase": 0.09636627605010294
+    },
+    "class_weights": {
+      "maintain": 0.038344151882577775,
+      "emphasize_foreground": 0.07917250380826646,
+      "balance": 0.05288949197529045
+    },
+    "threshold": {
+      "maintain": 0.056804456109393234,
+      "decrease": 0.09255966382926611,
+      "increase": 0.007103605819788694
+    },
+    "include_background": {
+      "maintain": 0.008712929970154071,
+      "include": 0.002021839744032572,
+      "exclude": 0.0832619845547938
+    },
+    "normalization_type": {
+      "maintain": 0.07781567509498505,
+      "use_batch_norm": 0.08700121482468193,
+      "use_instance_norm": 0.0978618342232764
+    },
+    "weight_decay": {
+      "maintain": 0.07991585642167237,
+      "decrease": 0.04614793622529319,
+      "increase": 0.07805291762864555
+    },
+    "momentum": {
+      "maintain": 0.011827442586893323,
+      "decrease": 0.06399210213275239,
+      "increase": 0.014335328740904641
+    },
+    "dropout_rate": {
+      "maintain": 0.0944668917049584,
+      "decrease": 0.05218483217500717,
+      "increase": 0.04146619399905236
+    },
+    "augmentation_intensity": {
+      "maintain": 0.0264555612104627,
+      "decrease": 0.07742336894342167,
+      "increase": 0.04561503322165486
+    },
+    "augmentation_probability": {
+      "maintain": 0.05684339488686485,
+      "decrease": 0.0018789800436355142,
+      "increase": 0.06176354970758771
+    },
+    "focal_gamma": {
+      "maintain": 0.06120957227224214,
+      "decrease": 0.0616933996874757,
+      "increase": 0.09437480785146242
+    },
+    "batch_size": {
+      "maintain": 0.06818202991034834,
+      "decrease": 0.035950790057378605,
+      "increase": 0.04370319537993415
+    }
+  },
+  "worsening": {
+    "learning_rate": {
+      "maintain": 0.06976311959272649,
+      "decrease": 0.006022547162926984,
+      "increase": 0.06667667154456677
+    },
+    "lambda_ce": {
+      "maintain": 0.06706378696181595,
+      "decrease": 0.021038256107384093,
+      "increase": 0.01289262976548533
+    },
+    "lambda_dice": {
+      "maintain": 0.03154283509241839,
+      "decrease": 0.03637107709426226,
+      "increase": 0.05701967704178797
+    },
+    "class_weights": {
+      "maintain": 0.043860151346232036,
+      "emphasize_foreground": 0.09883738380592262,
+      "balance": 0.010204481074802808
+    },
+    "threshold": {
+      "maintain": 0.020887675609483472,
+      "decrease": 0.016130951788499628,
+      "increase": 0.06531083254653984
+    },
+    "include_background": {
+      "maintain": 0.025329160253978213,
+      "include": 0.04663107728563063,
+      "exclude": 0.024442559200160276
+    },
+    "normalization_type": {
+      "maintain": 0.01589695836455197,
+      "use_batch_norm": 0.011037514116430515,
+      "use_instance_norm": 0.06563295894652735
+    },
+    "weight_decay": {
+      "maintain": 0.01381829513486138,
+      "decrease": 0.019658236168005352,
+      "increase": 0.036872517066096414
+    },
+    "momentum": {
+      "maintain": 0.08209932298479351,
+      "decrease": 0.009710127579306128,
+      "increase": 0.0837944907498804
+    },
+    "dropout_rate": {
+      "maintain": 0.009609840789396307,
+      "decrease": 0.09764594650133958,
+      "increase": 0.04686512016477016
+    },
+    "augmentation_intensity": {
+      "maintain": 0.09767610881903371,
+      "decrease": 0.0604845519745046,
+      "increase": 0.07392635793983017
+    },
+    "augmentation_probability": {
+      "maintain": 0.003918779225432068,
+      "decrease": 0.028280696257640958,
+      "increase": 0.01201965612131689
+    },
+    "focal_gamma": {
+      "maintain": 0.029614019752214494,
+      "decrease": 0.011872771895424405,
+      "increase": 0.0317983179393976
+    },
+    "batch_size": {
+      "maintain": 0.041426299451467,
+      "decrease": 0.006414749634878436,
+      "increase": 0.06924721193700199
+    }
+  },
+  "plateau": {
+    "learning_rate": {
+      "maintain": 0.05666014542065752,
+      "decrease": 0.026538949093944542,
+      "increase": 0.05232480534666997
+    },
+    "lambda_ce": {
+      "maintain": 0.009394051075844168,
+      "decrease": 0.05759464955561793,
+      "increase": 0.09292961975762142
+    },
+    "lambda_dice": {
+      "maintain": 0.03185689524513237,
+      "decrease": 0.06674103799636817,
+      "increase": 0.013179786240439218
+    },
+    "class_weights": {
+      "maintain": 0.07163272041185656,
+      "emphasize_foreground": 0.028940609294720112,
+      "balance": 0.018319136200711683
+    },
+    "threshold": {
+      "maintain": 0.05865129348100832,
+      "decrease": 0.002010754618749355,
+      "increase": 0.08289400292173632
+    },
+    "include_background": {
+      "maintain": 0.0004695476192547066,
+      "include": 0.06778165367962301,
+      "exclude": 0.027000797319216487
+    },
+    "normalization_type": {
+      "maintain": 0.07351940221225949,
+      "use_batch_norm": 0.09621885451174383,
+      "use_instance_norm": 0.024875314351995803
+    },
+    "weight_decay": {
+      "maintain": 0.057615733441783695,
+      "decrease": 0.059204193127183904,
+      "increase": 0.05722519057908734
+    },
+    "momentum": {
+      "maintain": 0.022308163264061834,
+      "decrease": 0.09527490115169851,
+      "increase": 0.04471253786176274
+    },
+    "dropout_rate": {
+      "maintain": 0.08464086724711278,
+      "decrease": 0.06994792753175043,
+      "increase": 0.029743695085513368
+    },
+    "augmentation_intensity": {
+      "maintain": 0.08137978197024773,
+      "decrease": 0.039650574084698464,
+      "increase": 0.08811031971111616
+    },
+    "augmentation_probability": {
+      "maintain": 0.058127287263585875,
+      "decrease": 0.08817353618548529,
+      "increase": 0.0692531590077766
+    },
+    "focal_gamma": {
+      "maintain": 0.07252542798196406,
+      "decrease": 0.05013243819267023,
+      "increase": 0.09560836347232239
+    },
+    "batch_size": {
+      "maintain": 0.06439901992296375,
+      "decrease": 0.04238550485581797,
+      "increase": 0.060639321412792435
+    }
+  },
+  "oscillating": {
+    "learning_rate": {
+      "maintain": 0.0019193198309333526,
+      "decrease": 0.030157481667454935,
+      "increase": 0.06601735374926851
+    },
+    "lambda_ce": {
+      "maintain": 0.02900776072104441,
+      "decrease": 0.061801542899884154,
+      "increase": 0.042876870094576615
+    },
+    "lambda_dice": {
+      "maintain": 0.013547406422245023,
+      "decrease": 0.029828232595603077,
+      "increase": 0.05699649107012649
+    },
+    "class_weights": {
+      "maintain": 0.059087276124817324,
+      "emphasize_foreground": 0.05743252488495788,
+      "balance": 0.06532008198571336
+    },
+    "threshold": {
+      "maintain": 0.06521032700016889,
+      "decrease": 0.043141843543397396,
+      "increase": 0.08965465958510631
+    },
+    "include_background": {
+      "maintain": 0.03675618700478966,
+      "include": 0.04358649252656269,
+      "exclude": 0.08919233550156722
+    },
+    "normalization_type": {
+      "maintain": 0.08061939890460858,
+      "use_batch_norm": 0.07038885835403663,
+      "use_instance_norm": 0.010022688731230113
+    },
+    "weight_decay": {
+      "maintain": 0.09194826137446736,
+      "decrease": 0.07142412995491114,
+      "increase": 0.09988470065678666
+    },
+    "momentum": {
+      "maintain": 0.014944830465799376,
+      "decrease": 0.08681260573682142,
+      "increase": 0.016249293467637482
+    },
+    "dropout_rate": {
+      "maintain": 0.06155595642838442,
+      "decrease": 0.012381998284944152,
+      "increase": 0.08480082293222345
+    },
+    "augmentation_intensity": {
+      "maintain": 0.08073189587250107,
+      "decrease": 0.05691007386145933,
+      "increase": 0.04071832972259997
+    },
+    "augmentation_probability": {
+      "maintain": 0.006916699545513805,
+      "decrease": 0.06974287731445637,
+      "increase": 0.04535426826780689
+    },
+    "focal_gamma": {
+      "maintain": 0.0722055599470348,
+      "decrease": 0.08663823259286292,
+      "increase": 0.09755215050028859
+    },
+    "batch_size": {
+      "maintain": 0.0855803342392611,
+      "decrease": 0.0011714084185001973,
+      "increase": 0.03599780644783639
+    }
+  },
+  "mixed": {
+    "learning_rate": {
+      "maintain": 0.07299905624240581,
+      "decrease": 0.017162967726144052,
+      "increase": 0.05210366062041293
+    },
+    "lambda_ce": {
+      "maintain": 0.005433798833925363,
+      "decrease": 0.01999965248964001,
+      "increase": 0.0018521794460613973
+    },
+    "lambda_dice": {
+      "maintain": 0.07936977033574207,
+      "decrease": 0.022392468806038013,
+      "increase": 0.03453516806969027
+    },
+    "class_weights": {
+      "maintain": 0.09280812934655909,
+      "emphasize_foreground": 0.07044144019235328,
+      "balance": 0.003183892953130785
+    },
+    "threshold": {
+      "maintain": 0.016469415649791274,
+      "decrease": 0.062147840149976354,
+      "increase": 0.05772285886041676
+    },
+    "include_background": {
+      "maintain": 0.023789282137450865,
+      "include": 0.09342139979247938,
+      "exclude": 0.0613965955965896
+    },
+    "normalization_type": {
+      "maintain": 0.05356328030249583,
+      "use_batch_norm": 0.0589909976354571,
+      "use_instance_norm": 0.07301220295167697
+    },
+    "weight_decay": {
+      "maintain": 0.031194499547960188,
+      "decrease": 0.03982210622160919,
+      "increase": 0.020984374897512217
+    },
+    "momentum": {
+      "maintain": 0.018619300588033617,
+      "decrease": 0.09443723899839336,
+      "increase": 0.07395507950492876
+    },
+    "dropout_rate": {
+      "maintain": 0.04904588086175671,
+      "decrease": 0.022741462797332326,
+      "increase": 0.025435648177039295
+    },
+    "augmentation_intensity": {
+      "maintain": 0.005802916032387562,
+      "decrease": 0.04344166255581208,
+      "increase": 0.03117958819941026
+    },
+    "augmentation_probability": {
+      "maintain": 0.06963434888154595,
+      "decrease": 0.03777518392924809,
+      "increase": 0.01796036775596348
+    },
+    "focal_gamma": {
+      "maintain": 0.002467872839133123,
+      "decrease": 0.006724963146324859,
+      "increase": 0.06793927734985673
+    },
+    "batch_size": {
+      "maintain": 0.045369684455604534,
+      "decrease": 0.053657921110872225,
+      "increase": 0.08966712930403421
+    }
+  },
+  "insufficient_data": {
+    "learning_rate": {
+      "maintain": 0.09903389473967045,
+      "decrease": 0.021689698439847395,
+      "increase": 0.06630782031001008
+    },
+    "lambda_ce": {
+      "maintain": 0.026332237673715064,
+      "decrease": 0.002065099946572868,
+      "increase": 0.07583786538361414
+    },
+    "lambda_dice": {
+      "maintain": 0.032001715082246786,
+      "decrease": 0.0383463894171898,
+      "increase": 0.058831711355360576
+    },
+    "class_weights": {
+      "maintain": 0.08310484552361905,
+      "emphasize_foreground": 0.06289818435911487,
+      "balance": 0.08726506554473953
+    },
+    "threshold": {
+      "maintain": 0.027354203481563578,
+      "decrease": 0.07980468339125638,
+      "increase": 0.018563594430595222
+    },
+    "include_background": {
+      "maintain": 0.09527916569719447,
+      "include": 0.06874882763878153,
+      "exclude": 0.021550767711355848
+    },
+    "normalization_type": {
+      "maintain": -0.36782605519635536,
+      "use_batch_norm": 0.07308558067701579,
+      "use_instance_norm": 0.025394164259502583
+    },
+    "weight_decay": {
+      "maintain": 0.0213311977367482,
+      "decrease": 0.051820071393066325,
+      "increase": 0.0025662718054531575
+    },
+    "momentum": {
+      "maintain": 0.02074700754411094,
+      "decrease": 0.04246854687515063,
+      "increase": 0.037416998033422556
+    },
+    "dropout_rate": {
+      "maintain": 0.16547843720258354,
+      "decrease": 0.02776287062947319,
+      "increase": 0.05867843464581688
+    },
+    "augmentation_intensity": {
+      "maintain": 0.08638556059232315,
+      "decrease": 0.011753185596203308,
+      "increase": 0.05173791071541142
+    },
+    "augmentation_probability": {
+      "maintain": 0.013206810634515332,
+      "decrease": 0.07168596811925937,
+      "increase": 0.039605970280729375
+    },
+    "focal_gamma": {
+      "maintain": 0.0565421311858509,
+      "decrease": 0.018327983621407862,
+      "increase": 0.014484775934337724
+    },
+    "batch_size": {
+      "maintain": 0.04880562806489546,
+      "decrease": 0.035561273784995566,
+      "increase": 0.09404319452528132
+    }
+  },
+  "overfitting": {
+    "learning_rate": {
+      "maintain": 0.07653252538069653,
+      "decrease": 0.07486636198505474,
+      "increase": 0.09037197397459334
+    },
+    "lambda_ce": {
+      "maintain": 0.008342243544201855,
+      "decrease": 0.05521924699224066,
+      "increase": 0.05844760689557689
+    },
+    "lambda_dice": {
+      "maintain": 0.0961936378547229,
+      "decrease": 0.029214752679254885,
+      "increase": 0.024082877991544682
+    },
+    "class_weights": {
+      "maintain": 0.010029394226549783,
+      "emphasize_foreground": 0.0016429629591474205,
+      "balance": 0.09295293167921906
+    },
+    "threshold": {
+      "maintain": 0.066991654659091,
+      "decrease": 0.07851529120231378,
+      "increase": 0.02817301057539491
+    },
+    "include_background": {
+      "maintain": 0.05864101661863267,
+      "include": 0.006395526612098113,
+      "exclude": 0.04856275959346229
+    },
+    "normalization_type": {
+      "maintain": 0.09774951397444469,
+      "use_batch_norm": 0.08765052453165909,
+      "use_instance_norm": 0.033815895183684566
+    },
+    "weight_decay": {
+      "maintain": 0.09615701545414986,
+      "decrease": 0.023170162647120452,
+      "increase": 0.09493188224156815
+    },
+    "momentum": {
+      "maintain": 0.09413777047064986,
+      "decrease": 0.07992025873523917,
+      "increase": 0.06304479368667912
+    },
+    "dropout_rate": {
+      "maintain": 0.0874287966624947,
+      "decrease": 0.02930202845077967,
+      "increase": 0.08489435553129182
+    },
+    "augmentation_intensity": {
+      "maintain": 0.06178766919175238,
+      "decrease": 0.001323685775889949,
+      "increase": 0.03472335179322196
+    },
+    "augmentation_probability": {
+      "maintain": 0.014814086094816504,
+      "decrease": 0.09818293898182533,
+      "increase": 0.047837030703998806
+    },
+    "focal_gamma": {
+      "maintain": 0.049739136549866274,
+      "decrease": 0.06394725163987236,
+      "increase": 0.03685846061296175
+    },
+    "batch_size": {
+      "maintain": 0.013690027168559894,
+      "decrease": 0.08221177331942456,
+      "increase": 0.018984791190275796
+    }
+  },
+  "underfitting": {
+    "learning_rate": {
+      "maintain": -2.7589662915002635,
+      "decrease": -3.370051755301406,
+      "increase": -3.379808316278992
+    },
+    "lambda_ce": {
+      "maintain": 0.08621915174216833,
+      "decrease": 0.09729194890231303,
+      "increase": 0.09608346580630002
+    },
+    "lambda_dice": {
+      "maintain": 0.0906555499221179,
+      "decrease": 0.07740473326986388,
+      "increase": 0.033314515202864194
+    },
+    "class_weights": {
+      "maintain": 0.008110138998799676,
+      "emphasize_foreground": 0.04072411714138074,
+      "balance": 0.023223414217094274
+    },
+    "threshold": {
+      "maintain": -1.5207701826551363,
+      "decrease": -2.6349886757763272,
+      "increase": -1.9561844578209242
+    },
+    "include_background": {
+      "maintain": -0.5434805028669938,
+      "include": -1.5789267131345635,
+      "exclude": -2.3602252976616596
+    },
+    "normalization_type": {
+      "maintain": 0.007952208258675575,
+      "use_batch_norm": 0.008960303423860538,
+      "use_instance_norm": 0.06720478073539145
+    },
+    "weight_decay": {
+      "maintain": 0.024536720985284477,
+      "decrease": 0.04205394666800985,
+      "increase": 0.0557368791323917
+    },
+    "momentum": {
+      "maintain": -3.724100389286625,
+      "decrease": -3.011899764296211,
+      "increase": -3.415431974742141
+    },
+    "dropout_rate": {
+      "maintain": 0.013148279929112761,
+      "decrease": 0.005537432042119795,
+      "increase": 0.03015986344809425
+    },
+    "augmentation_intensity": {
+      "maintain": 0.026211814923967826,
+      "decrease": 0.04561405668004797,
+      "increase": -1.6830609287342218
+    },
+    "augmentation_probability": {
+      "maintain": -2.015390672254613,
+      "decrease": 0.028351884658216666,
+      "increase": 0.03799269559001205
+    },
+    "focal_gamma": {
+      "maintain": -3.5131220142043804,
+      "decrease": -1.691461348769661,
+      "increase": -3.239955790972028
+    },
+    "batch_size": {
+      "maintain": -3.592264304052528,
+      "decrease": -3.1111881069470173,
+      "increase": -3.3817260755456617
+    }
+  },
+  "unstable": {
+    "learning_rate": {
+      "maintain": 0.025942256434535495,
+      "decrease": 0.03738131379325615,
+      "increase": 0.05875996351963891
+    },
+    "lambda_ce": {
+      "maintain": 0.027282190242446703,
+      "decrease": 0.03708527992178887,
+      "increase": 0.019705428018563967
+    },
+    "lambda_dice": {
+      "maintain": 0.04598558837560074,
+      "decrease": 0.004461230125411409,
+      "increase": 0.07997958845706181
+    },
+    "class_weights": {
+      "maintain": 0.007695644698663274,
+      "emphasize_foreground": 0.051883514883152605,
+      "balance": 0.03068100995451961
+    },
+    "threshold": {
+      "maintain": 0.05775429488313755,
+      "decrease": 0.09594333408334252,
+      "increase": 0.0645570244456004
+    },
+    "include_background": {
+      "maintain": 0.003536243575549092,
+      "include": 0.04304024395080613,
+      "exclude": 0.05100168523182502
+    },
+    "normalization_type": {
+      "maintain": 0.0536177494703452,
+      "use_batch_norm": 0.0681392510603838,
+      "use_instance_norm": 0.02775960977317661
+    },
+    "weight_decay": {
+      "maintain": 0.012886056546632019,
+      "decrease": 0.039267567654709436,
+      "increase": 0.09564057227959488
+    },
+    "momentum": {
+      "maintain": 0.018713089175084473,
+      "decrease": 0.0903983954928237,
+      "increase": 0.05438059500773264
+    },
+    "dropout_rate": {
+      "maintain": 0.045691142164576586,
+      "decrease": 0.08820414102298896,
+      "increase": 0.04586039617685859
+    },
+    "augmentation_intensity": {
+      "maintain": 0.07241676366115433,
+      "decrease": 0.0399025321703102,
+      "increase": 0.09040443929009578
+    },
+    "augmentation_probability": {
+      "maintain": 0.06900250201912274,
+      "decrease": 0.06996220542505167,
+      "increase": 0.03277204015571189
+    },
+    "focal_gamma": {
+      "maintain": 0.07567786427368893,
+      "decrease": 0.06360610554471413,
+      "increase": 0.024002027337970955
+    },
+    "batch_size": {
+      "maintain": 0.016053882248525643,
+      "decrease": 0.07963914745173317,
+      "increase": 0.09591666030352225
+    }
+  },
+  "converging": {
+    "learning_rate": {
+      "maintain": 0.045813882726004285,
+      "decrease": 0.0590984165323685,
+      "increase": 0.08577226441935547
+    },
+    "lambda_ce": {
+      "maintain": 0.04572234533538571,
+      "decrease": 0.09518744768327363,
+      "increase": 0.05757511620448724
+    },
+    "lambda_dice": {
+      "maintain": 0.08207671207013151,
+      "decrease": 0.09088437184127385,
+      "increase": 0.08155238187685689
+    },
+    "class_weights": {
+      "maintain": 0.015941446344895593,
+      "emphasize_foreground": 0.06288984390617004,
+      "balance": 0.03984342586196771
+    },
+    "threshold": {
+      "maintain": 0.006271295202334571,
+      "decrease": 0.0424032251889842,
+      "increase": 0.025868406688940773
+    },
+    "include_background": {
+      "maintain": 0.08490383084285108,
+      "include": 0.0033304626546696195,
+      "exclude": 0.09589827218634736
+    },
+    "normalization_type": {
+      "maintain": 0.035536884847192966,
+      "use_batch_norm": 0.03567068904025429,
+      "use_instance_norm": 0.001632850268370789
+    },
+    "weight_decay": {
+      "maintain": 0.018523232523618396,
+      "decrease": 0.04012595008036088,
+      "increase": 0.09292914173027139
+    },
+    "momentum": {
+      "maintain": 0.009961493022127134,
+      "decrease": 0.09453015334790796,
+      "increase": 0.08694885305466322
+    },
+    "dropout_rate": {
+      "maintain": 0.04541623969075518,
+      "decrease": 0.032670088176826005,
+      "increase": 0.023274412927905688
+    },
+    "augmentation_intensity": {
+      "maintain": 0.061446470647687434,
+      "decrease": 0.0033074591475505625,
+      "increase": 0.0015606064446828218
+    },
+    "augmentation_probability": {
+      "maintain": 0.042879572249823784,
+      "decrease": 0.006807407397472021,
+      "increase": 0.025194098824609292
+    },
+    "focal_gamma": {
+      "maintain": 0.022116091534608386,
+      "decrease": 0.025319119372285193,
+      "increase": 0.013105523121525776
+    },
+    "batch_size": {
+      "maintain": 0.001203622289765427,
+      "decrease": 0.011548429713874809,
+      "increase": 0.06184802595127479
+    }
+  },
+  "diverging": {
+    "learning_rate": {
+      "maintain": 0.09742562128180504,
+      "decrease": 0.09903450015608939,
+      "increase": 0.04090540953730616
+    },
+    "lambda_ce": {
+      "maintain": 0.016295442604660537,
+      "decrease": 0.06387617573665293,
+      "increase": 0.04903053465487372
+    },
+    "lambda_dice": {
+      "maintain": 0.09894097772844315,
+      "decrease": 0.00653042071517802,
+      "increase": 0.07832344383138132
+    },
+    "class_weights": {
+      "maintain": 0.028839849733149393,
+      "emphasize_foreground": 0.024141862007657403,
+      "balance": 0.06625045715326759
+    },
+    "threshold": {
+      "maintain": 0.024606318499096447,
+      "decrease": 0.06658591175591877,
+      "increase": 0.05173085172022888
+    },
+    "include_background": {
+      "maintain": 0.04240889884358493,
+      "include": 0.055468780866141904,
+      "exclude": 0.028705151991962975
+    },
+    "normalization_type": {
+      "maintain": 0.0706574706272979,
+      "use_batch_norm": 0.04148568693335641,
+      "use_instance_norm": 0.036054556048589224
+    },
+    "weight_decay": {
+      "maintain": 0.08286569145557378,
+      "decrease": 0.09249669119531923,
+      "increase": 0.004600731088729693
+    },
+    "momentum": {
+      "maintain": 0.023262699282976553,
+      "decrease": 0.034851936949256326,
+      "increase": 0.08149664793702474
+    },
+    "dropout_rate": {
+      "maintain": 0.09854914276432976,
+      "decrease": 0.09689717046703518,
+      "increase": 0.09049483455499269
+    },
+    "augmentation_intensity": {
+      "maintain": 0.02965562650640299,
+      "decrease": 0.09920112434144741,
+      "increase": 0.02494200410564512
+    },
+    "augmentation_probability": {
+      "maintain": 0.010590615488223222,
+      "decrease": 0.09509526110553941,
+      "increase": 0.02334202554680963
+    },
+    "focal_gamma": {
+      "maintain": 0.06897682650777505,
+      "decrease": 0.0058356358980588665,
+      "increase": 0.07307090991274762
+    },
+    "batch_size": {
+      "maintain": 0.08817202123338397,
+      "decrease": 0.027243689546596252,
+      "increase": 0.037905689607742855
+    }
+  }
+}

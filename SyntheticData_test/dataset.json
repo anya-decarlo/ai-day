@@ -1,0 +1,172 @@
+{
+  "name": "SyntheticSegmentationDataset",
+  "description": "Synthetic dataset for medical image segmentation",
+  "num_classes": 3,
+  "shape": [
+    64,
+    64,
+    64
+  ],
+  "training": [
+    {
+      "image": "images/image_000.nii.gz",
+      "label": "labels/label_000.nii.gz"
+    },
+    {
+      "image": "images/image_001.nii.gz",
+      "label": "labels/label_001.nii.gz"
+    },
+    {
+      "image": "images/image_002.nii.gz",
+      "label": "labels/label_002.nii.gz"
+    },
+    {
+      "image": "images/image_003.nii.gz",
+      "label": "labels/label_003.nii.gz"
+    },
+    {
+      "image": "images/image_004.nii.gz",
+      "label": "labels/label_004.nii.gz"
+    },
+    {
+      "image": "images/image_005.nii.gz",
+      "label": "labels/label_005.nii.gz"
+    },
+    {
+      "image": "images/image_006.nii.gz",
+      "label": "labels/label_006.nii.gz"
+    },
+    {
+      "image": "images/image_007.nii.gz",
+      "label": "labels/label_007.nii.gz"
+    },
+    {
+      "image": "images/image_008.nii.gz",
+      "label": "labels/label_008.nii.gz"
+    },
+    {
+      "image": "images/image_009.nii.gz",
+      "label": "labels/label_009.nii.gz"
+    },
+    {
+      "image": "images/image_010.nii.gz",
+      "label": "labels/label_010.nii.gz"
+    },
+    {
+      "image": "images/image_011.nii.gz",
+      "label": "labels/label_011.nii.gz"
+    },
+    {
+      "image": "images/image_012.nii.gz",
+      "label": "labels/label_012.nii.gz"
+    },
+    {
+      "image": "images/image_013.nii.gz",
+      "label": "labels/label_013.nii.gz"
+    },
+    {
+      "image": "images/image_014.nii.gz",
+      "label": "labels/label_014.nii.gz"
+    },
+    {
+      "image": "images/image_015.nii.gz",
+      "label": "labels/label_015.nii.gz"
+    },
+    {
+      "image": "images/image_016.nii.gz",
+      "label": "labels/label_016.nii.gz"
+    },
+    {
+      "image": "images/image_017.nii.gz",
+      "label": "labels/label_017.nii.gz"
+    },
+    {
+      "image": "images/image_018.nii.gz",
+      "label": "labels/label_018.nii.gz"
+    },
+    {
+      "image": "images/image_019.nii.gz",
+      "label": "labels/label_019.nii.gz"
+    },
+    {
+      "image": "images/image_020.nii.gz",
+      "label": "labels/label_020.nii.gz"
+    },
+    {
+      "image": "images/image_021.nii.gz",
+      "label": "labels/label_021.nii.gz"
+    },
+    {
+      "image": "images/image_022.nii.gz",
+      "label": "labels/label_022.nii.gz"
+    },
+    {
+      "image": "images/image_023.nii.gz",
+      "label": "labels/label_023.nii.gz"
+    },
+    {
+      "image": "images/image_024.nii.gz",
+      "label": "labels/label_024.nii.gz"
+    },
+    {
+      "image": "images/image_025.nii.gz",
+      "label": "labels/label_025.nii.gz"
+    },
+    {
+      "image": "images/image_026.nii.gz",
+      "label": "labels/label_026.nii.gz"
+    },
+    {
+      "image": "images/image_027.nii.gz",
+      "label": "labels/label_027.nii.gz"
+    },
+    {
+      "image": "images/image_028.nii.gz",
+      "label": "labels/label_028.nii.gz"
+    },
+    {
+      "image": "images/image_029.nii.gz",
+      "label": "labels/label_029.nii.gz"
+    },
+    {
+      "image": "images/image_030.nii.gz",
+      "label": "labels/label_030.nii.gz"
+    },
+    {
+      "image": "images/image_031.nii.gz",
+      "label": "labels/label_031.nii.gz"
+    },
+    {
+      "image": "images/image_032.nii.gz",
+      "label": "labels/label_032.nii.gz"
+    },
+    {
+      "image": "images/image_033.nii.gz",
+      "label": "labels/label_033.nii.gz"
+    },
+    {
+      "image": "images/image_034.nii.gz",
+      "label": "labels/label_034.nii.gz"
+    },
+    {
+      "image": "images/image_035.nii.gz",
+      "label": "labels/label_035.nii.gz"
+    },
+    {
+      "image": "images/image_036.nii.gz",
+      "label": "labels/label_036.nii.gz"
+    },
+    {
+      "image": "images/image_037.nii.gz",
+      "label": "labels/label_037.nii.gz"
+    },
+    {
+      "image": "images/image_038.nii.gz",
+      "label": "labels/label_038.nii.gz"
+    },
+    {
+      "image": "images/image_039.nii.gz",
+      "label": "labels/label_039.nii.gz"
+    }
+  ]
+}

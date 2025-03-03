@@ -1,0 +1,206 @@
+MONAI version: 1.4.0
+Numpy version: 1.26.4
+Pytorch version: 2.7.0.dev20250221
+MONAI flags: HAS_EXT = False, USE_COMPILED = False, USE_META_DICT = False
+MONAI rev id: 46a5272196a6c2590ca2589029eed8e4d56ff008
+MONAI __file__: /opt/anaconda3/lib/python3.12/site-packages/monai/__init__.py
+
+Optional dependencies:
+Pytorch Ignite version: NOT INSTALLED or UNKNOWN VERSION.
+ITK version: NOT INSTALLED or UNKNOWN VERSION.
+Nibabel version: 5.3.2
+scikit-image version: 0.25.2
+scipy version: 1.15.1
+Pillow version: 11.1.0
+Tensorboard version: NOT INSTALLED or UNKNOWN VERSION.
+gdown version: NOT INSTALLED or UNKNOWN VERSION.
+TorchVision version: 0.22.0.dev20250221
+tqdm version: 4.67.1
+lmdb version: 1.6.2
+psutil version: 5.9.0
+pandas version: 2.2.3
+einops version: NOT INSTALLED or UNKNOWN VERSION.
+transformers version: 4.49.0
+mlflow version: NOT INSTALLED or UNKNOWN VERSION.
+pynrrd version: NOT INSTALLED or UNKNOWN VERSION.
+clearml version: NOT INSTALLED or UNKNOWN VERSION.
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+Using device: cpu
+Using existing synthetic dataset at: /Users/anyadecarlo/ai-day/SyntheticData
+Training samples: 160
+Validation samples: 40
+Model: UNet
+Parameters: 600,002
+[RL AGENT] Initialized with hyperparameters:
+  - Learning rate: 0.300000
+  - Class weights: [1.0, 1.0, 1.0]
+  - Threshold: 0.50
+  - Include background: True
+  - Normalization type: instance_norm
+----------
+Epoch 1/15
+Current hyperparameters:
+  Learning rate: 0.300000
+  Class weights: [1.0, 1.0, 1.0]
+  Threshold: 0.50
+  Include background: True
+  Normalization type: instance_norm
+1/40, train_loss: 0.8425
+2/40, train_loss: 0.8166
+3/40, train_loss: 0.7817
+4/40, train_loss: 0.7432
+5/40, train_loss: 0.7096
+6/40, train_loss: 0.6864
+7/40, train_loss: 0.6760
+8/40, train_loss: 0.6712
+9/40, train_loss: 0.6692
+10/40, train_loss: 0.6700
+11/40, train_loss: 0.6686
+12/40, train_loss: 0.6688
+13/40, train_loss: 0.6678
+14/40, train_loss: 0.6684
+15/40, train_loss: 0.6687
+16/40, train_loss: 0.6683
+17/40, train_loss: 0.6686
+18/40, train_loss: 0.6677
+19/40, train_loss: 0.6684
+20/40, train_loss: 0.6676
+21/40, train_loss: 0.6681
+22/40, train_loss: 0.6687
+23/40, train_loss: 0.6680
+24/40, train_loss: 0.6684
+25/40, train_loss: 0.6681
+26/40, train_loss: 0.6683
+27/40, train_loss: 0.6682
+28/40, train_loss: 0.6687
+29/40, train_loss: 0.6688
+30/40, train_loss: 0.6681
+31/40, train_loss: 0.6686
+32/40, train_loss: 0.6689
+33/40, train_loss: 0.6680
+34/40, train_loss: 0.6681
+35/40, train_loss: 0.6682
+36/40, train_loss: 0.6683
+37/40, train_loss: 0.6679
+38/40, train_loss: 0.6685
+39/40, train_loss: 0.6684
+40/40, train_loss: 0.6687
+Epoch 1 average loss: 0.6829
+[RL AGENT DEBUG] Starting step with metrics: {'dice_score': 0.3318703770637512, 'val_loss': 0.6681319952011109}
+[RL AGENT DEBUG] Current optimizer LR: 0.300000
+[RL AGENT] Epoch 1: exclude background
+Agent adjusted include_background with action exclude
+  From: True
+  To: False
+Saved new best model with dice score: 0.3319
+Current epoch: 1, current mean dice: 0.3319, best mean dice: 0.3319 at epoch 1
+----------
+Epoch 2/15
+Current hyperparameters:
+  Learning rate: 0.300000
+  Class weights: [1.0, 1.0, 1.0]
+  Threshold: 0.50
+  Include background: False
+  Normalization type: instance_norm
+1/40, train_loss: 1.0000
+2/40, train_loss: 1.0000
+3/40, train_loss: 1.0000
+4/40, train_loss: 1.0000
+5/40, train_loss: 1.0000
+6/40, train_loss: 1.0000
+7/40, train_loss: 1.0000
+8/40, train_loss: 1.0000
+9/40, train_loss: 1.0000
+10/40, train_loss: 1.0000
+11/40, train_loss: 1.0000
+12/40, train_loss: 1.0000
+13/40, train_loss: 1.0000
+14/40, train_loss: 1.0000
+15/40, train_loss: 1.0000
+16/40, train_loss: 1.0000
+17/40, train_loss: 1.0000
+18/40, train_loss: 1.0000
+19/40, train_loss: 1.0000
+20/40, train_loss: 1.0000
+21/40, train_loss: 1.0000
+22/40, train_loss: 1.0000
+23/40, train_loss: 1.0000
+24/40, train_loss: 1.0000
+25/40, train_loss: 1.0000
+26/40, train_loss: 1.0000
+27/40, train_loss: 1.0000
+28/40, train_loss: 1.0000
+29/40, train_loss: 1.0000
+30/40, train_loss: 1.0000
+31/40, train_loss: 1.0000
+32/40, train_loss: 1.0000
+33/40, train_loss: 1.0000
+34/40, train_loss: 1.0000
+35/40, train_loss: 1.0000
+36/40, train_loss: 1.0000
+37/40, train_loss: 1.0000
+38/40, train_loss: 1.0000
+39/40, train_loss: 1.0000
+40/40, train_loss: 1.0000
+Epoch 2 average loss: 1.0000
+[RL AGENT DEBUG] Starting step with metrics: {'dice_score': 0.3318703770637512, 'val_loss': 1.0}
+[RL AGENT DEBUG] Current optimizer LR: 0.300000
+[RL AGENT] Epoch 2: EMERGENCY - switching to include_background=True to escape loss plateau
+Agent adjusted include_background with action include
+  From: False
+  To: True
+Current epoch: 2, current mean dice: 0.3319, best mean dice: 0.3319 at epoch 1
+----------
+Epoch 3/15
+Current hyperparameters:
+  Learning rate: 0.300000
+  Class weights: [1.0, 1.0, 1.0]
+  Threshold: 0.50
+  Include background: True
+  Normalization type: instance_norm
+1/40, train_loss: 0.6691
+2/40, train_loss: 0.6680
+3/40, train_loss: 0.6682
+4/40, train_loss: 0.6689
+5/40, train_loss: 0.6683
+6/40, train_loss: 0.6676
+7/40, train_loss: 0.6685
+8/40, train_loss: 0.6681
+9/40, train_loss: 0.6681
+10/40, train_loss: 0.6680
+11/40, train_loss: 0.6680
+12/40, train_loss: 0.6679
+13/40, train_loss: 0.6681
+14/40, train_loss: 0.6678
+15/40, train_loss: 0.6681
+16/40, train_loss: 0.6682
+17/40, train_loss: 0.6684
+18/40, train_loss: 0.6679
+19/40, train_loss: 0.6686
+20/40, train_loss: 0.6685
+21/40, train_loss: 0.6685
+22/40, train_loss: 0.6681
+23/40, train_loss: 0.6680
+24/40, train_loss: 0.6691
+25/40, train_loss: 0.6683
+26/40, train_loss: 0.6686
+27/40, train_loss: 0.6677
+28/40, train_loss: 0.6681
+29/40, train_loss: 0.6688
+30/40, train_loss: 0.6689
+31/40, train_loss: 0.6686
+32/40, train_loss: 0.6680
+33/40, train_loss: 0.6687
+34/40, train_loss: 0.6682
+35/40, train_loss: 0.6685
+36/40, train_loss: 0.6682
+37/40, train_loss: 0.6676
+38/40, train_loss: 0.6681
+39/40, train_loss: 0.6684
+40/40, train_loss: 0.6689
+Epoch 3 average loss: 0.6683
+[RL AGENT DEBUG] Starting step with metrics: {'dice_score': 0.3318703770637512, 'val_loss': 0.6681314945220947}
+[RL AGENT DEBUG] Current optimizer LR: 0.300000

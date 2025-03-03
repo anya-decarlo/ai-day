@@ -1,0 +1,12 @@
+Model Architecture: UNet
+Optimizer: Adam
+Loss Function: Dice
+Augmentations: All
+Dropout Rate: 0.2
+Weight Decay: 1e-05
+Learning Rate: 0.0001
+Batch Size: 4
+Patch Size: 64
+Gradient Clipping: 1.0
+Number of Epochs: 100
+Best Dice Score: 0.0518 at epoch 1

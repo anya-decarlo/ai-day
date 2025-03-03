@@ -1,0 +1,913 @@
+MONAI version: 1.4.0
+Numpy version: 1.26.4
+Pytorch version: 2.7.0.dev20250221
+MONAI flags: HAS_EXT = False, USE_COMPILED = False, USE_META_DICT = False
+MONAI rev id: 46a5272196a6c2590ca2589029eed8e4d56ff008
+MONAI __file__: /opt/anaconda3/lib/python3.12/site-packages/monai/__init__.py
+
+Optional dependencies:
+Pytorch Ignite version: NOT INSTALLED or UNKNOWN VERSION.
+ITK version: NOT INSTALLED or UNKNOWN VERSION.
+Nibabel version: 5.3.2
+scikit-image version: 0.25.2
+scipy version: 1.15.1
+Pillow version: 11.1.0
+Tensorboard version: NOT INSTALLED or UNKNOWN VERSION.
+gdown version: NOT INSTALLED or UNKNOWN VERSION.
+TorchVision version: 0.22.0.dev20250221
+tqdm version: 4.67.1
+lmdb version: 1.6.2
+psutil version: 5.9.0
+pandas version: 2.2.3
+einops version: NOT INSTALLED or UNKNOWN VERSION.
+transformers version: 4.49.0
+mlflow version: NOT INSTALLED or UNKNOWN VERSION.
+pynrrd version: NOT INSTALLED or UNKNOWN VERSION.
+clearml version: NOT INSTALLED or UNKNOWN VERSION.
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+Generating synthetic dataset at: /Users/anyadecarlo/ai-day/SyntheticData
+Generating sample 1/200...
+Generating sample 2/200...
+Generating sample 3/200...
+Generating sample 4/200...
+Generating sample 5/200...
+Generating sample 6/200...
+Generating sample 7/200...
+Generating sample 8/200...
+Generating sample 9/200...
+Generating sample 10/200...
+Generating sample 11/200...
+Generating sample 12/200...
+Generating sample 13/200...
+Generating sample 14/200...
+Generating sample 15/200...
+Generating sample 16/200...
+Generating sample 17/200...
+Generating sample 18/200...
+Generating sample 19/200...
+Generating sample 20/200...
+Generating sample 21/200...
+Generating sample 22/200...
+Generating sample 23/200...
+Generating sample 24/200...
+Generating sample 25/200...
+Generating sample 26/200...
+Generating sample 27/200...
+Generating sample 28/200...
+Generating sample 29/200...
+Generating sample 30/200...
+Generating sample 31/200...
+Generating sample 32/200...
+Generating sample 33/200...
+Generating sample 34/200...
+Generating sample 35/200...
+Generating sample 36/200...
+Generating sample 37/200...
+Generating sample 38/200...
+Generating sample 39/200...
+Generating sample 40/200...
+Generating sample 41/200...
+Generating sample 42/200...
+Generating sample 43/200...
+Generating sample 44/200...
+Generating sample 45/200...
+Generating sample 46/200...
+Generating sample 47/200...
+Generating sample 48/200...
+Generating sample 49/200...
+Generating sample 50/200...
+Generating sample 51/200...
+Generating sample 52/200...
+Generating sample 53/200...
+Generating sample 54/200...
+Generating sample 55/200...
+Generating sample 56/200...
+Generating sample 57/200...
+Generating sample 58/200...
+Generating sample 59/200...
+Generating sample 60/200...
+Generating sample 61/200...
+Generating sample 62/200...
+Generating sample 63/200...
+Generating sample 64/200...
+Generating sample 65/200...
+Generating sample 66/200...
+Generating sample 67/200...
+Generating sample 68/200...
+Generating sample 69/200...
+Generating sample 70/200...
+Generating sample 71/200...
+Generating sample 72/200...
+Generating sample 73/200...
+Generating sample 74/200...
+Generating sample 75/200...
+Generating sample 76/200...
+Generating sample 77/200...
+Generating sample 78/200...
+Generating sample 79/200...
+Generating sample 80/200...
+Generating sample 81/200...
+Generating sample 82/200...
+Generating sample 83/200...
+Generating sample 84/200...
+Generating sample 85/200...
+Generating sample 86/200...
+Generating sample 87/200...
+Generating sample 88/200...
+Generating sample 89/200...
+Generating sample 90/200...
+Generating sample 91/200...
+Generating sample 92/200...
+Generating sample 93/200...
+Generating sample 94/200...
+Generating sample 95/200...
+Generating sample 96/200...
+Generating sample 97/200...
+Generating sample 98/200...
+Generating sample 99/200...
+Generating sample 100/200...
+Generating sample 101/200...
+Generating sample 102/200...
+Generating sample 103/200...
+Generating sample 104/200...
+Generating sample 105/200...
+Generating sample 106/200...
+Generating sample 107/200...
+Generating sample 108/200...
+Generating sample 109/200...
+Generating sample 110/200...
+Generating sample 111/200...
+Generating sample 112/200...
+Generating sample 113/200...
+Generating sample 114/200...
+Generating sample 115/200...
+Generating sample 116/200...
+Generating sample 117/200...
+Generating sample 118/200...
+Generating sample 119/200...
+Generating sample 120/200...
+Generating sample 121/200...
+Generating sample 122/200...
+Generating sample 123/200...
+Generating sample 124/200...
+Generating sample 125/200...
+Generating sample 126/200...
+Generating sample 127/200...
+Generating sample 128/200...
+Generating sample 129/200...
+Generating sample 130/200...
+Generating sample 131/200...
+Generating sample 132/200...
+Generating sample 133/200...
+Generating sample 134/200...
+Generating sample 135/200...
+Generating sample 136/200...
+Generating sample 137/200...
+Generating sample 138/200...
+Generating sample 139/200...
+Generating sample 140/200...
+Generating sample 141/200...
+Generating sample 142/200...
+Generating sample 143/200...
+Generating sample 144/200...
+Generating sample 145/200...
+Generating sample 146/200...
+Generating sample 147/200...
+Generating sample 148/200...
+Generating sample 149/200...
+Generating sample 150/200...
+Generating sample 151/200...
+Generating sample 152/200...
+Generating sample 153/200...
+Generating sample 154/200...
+Generating sample 155/200...
+Generating sample 156/200...
+Generating sample 157/200...
+Generating sample 158/200...
+Generating sample 159/200...
+Generating sample 160/200...
+Generating sample 161/200...
+Generating sample 162/200...
+Generating sample 163/200...
+Generating sample 164/200...
+Generating sample 165/200...
+Generating sample 166/200...
+Generating sample 167/200...
+Generating sample 168/200...
+Generating sample 169/200...
+Generating sample 170/200...
+Generating sample 171/200...
+Generating sample 172/200...
+Generating sample 173/200...
+Generating sample 174/200...
+Generating sample 175/200...
+Generating sample 176/200...
+Generating sample 177/200...
+Generating sample 178/200...
+Generating sample 179/200...
+Generating sample 180/200...
+Generating sample 181/200...
+Generating sample 182/200...
+Generating sample 183/200...
+Generating sample 184/200...
+Generating sample 185/200...
+Generating sample 186/200...
+Generating sample 187/200...
+Generating sample 188/200...
+Generating sample 189/200...
+Generating sample 190/200...
+Generating sample 191/200...
+Generating sample 192/200...
+Generating sample 193/200...
+Generating sample 194/200...
+Generating sample 195/200...
+Generating sample 196/200...
+Generating sample 197/200...
+Generating sample 198/200...
+Generating sample 199/200...
+Generating sample 200/200...
+Generated 200 synthetic samples in /Users/anyadecarlo/ai-day/SyntheticData
+Training samples: 160
+Validation samples: 40
+Using device: cpu
+----------
+epoch 1/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.8458
+2/40, train_loss: 0.8443
+3/40, train_loss: 0.8308
+4/40, train_loss: 0.8301
+5/40, train_loss: 0.8122
+6/40, train_loss: 0.8114
+7/40, train_loss: 0.7885
+8/40, train_loss: 0.7901
+9/40, train_loss: 0.7636
+10/40, train_loss: 0.7619
+11/40, train_loss: 0.7377
+12/40, train_loss: 0.7378
+13/40, train_loss: 0.7159
+14/40, train_loss: 0.7165
+15/40, train_loss: 0.6985
+16/40, train_loss: 0.6983
+17/40, train_loss: 0.6866
+18/40, train_loss: 0.6862
+19/40, train_loss: 0.6785
+20/40, train_loss: 0.6777
+21/40, train_loss: 0.6735
+22/40, train_loss: 0.6739
+23/40, train_loss: 0.6710
+24/40, train_loss: 0.6712
+25/40, train_loss: 0.6694
+26/40, train_loss: 0.6697
+27/40, train_loss: 0.6686
+28/40, train_loss: 0.6688
+29/40, train_loss: 0.6679
+30/40, train_loss: 0.6677
+31/40, train_loss: 0.6669
+32/40, train_loss: 0.6675
+33/40, train_loss: 0.6665
+34/40, train_loss: 0.6664
+35/40, train_loss: 0.6649
+36/40, train_loss: 0.6642
+37/40, train_loss: 0.6525
+38/40, train_loss: 0.6504
+39/40, train_loss: 0.6353
+40/40, train_loss: 0.6288
+epoch 1 average loss: 0.7094
+saved new best metric model
+current epoch: 1, current mean dice: 0.1647, current AUROC: 0.5454, current AUPRC: 0.4902, current PPV: 0.8814, current NNE: 1.1346, best mean dice: 0.1647 at epoch: 1
+----------
+epoch 2/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.6227
+2/40, train_loss: 0.6256
+3/40, train_loss: 0.6168
+4/40, train_loss: 0.6271
+5/40, train_loss: 0.6194
+6/40, train_loss: 0.6230
+7/40, train_loss: 0.6115
+8/40, train_loss: 0.6124
+9/40, train_loss: 0.6160
+10/40, train_loss: 0.6205
+11/40, train_loss: 0.6140
+12/40, train_loss: 0.6078
+13/40, train_loss: 0.6063
+14/40, train_loss: 0.6047
+15/40, train_loss: 0.6094
+16/40, train_loss: 0.6005
+17/40, train_loss: 0.6088
+18/40, train_loss: 0.6108
+19/40, train_loss: 0.6008
+20/40, train_loss: 0.6115
+21/40, train_loss: 0.6082
+22/40, train_loss: 0.6061
+23/40, train_loss: 0.6042
+24/40, train_loss: 0.6062
+25/40, train_loss: 0.6015
+26/40, train_loss: 0.6009
+27/40, train_loss: 0.5998
+28/40, train_loss: 0.6033
+29/40, train_loss: 0.5971
+30/40, train_loss: 0.6046
+31/40, train_loss: 0.5997
+32/40, train_loss: 0.6006
+33/40, train_loss: 0.6029
+34/40, train_loss: 0.6050
+35/40, train_loss: 0.6030
+36/40, train_loss: 0.5994
+37/40, train_loss: 0.5981
+38/40, train_loss: 0.6003
+39/40, train_loss: 0.5990
+40/40, train_loss: 0.6067
+epoch 2 average loss: 0.6079
+saved new best metric model
+current epoch: 2, current mean dice: 0.1793, current AUROC: 0.5501, current AUPRC: 0.4716, current PPV: 0.8346, current NNE: 1.1982, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 3/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5981
+2/40, train_loss: 0.6058
+3/40, train_loss: 0.5991
+4/40, train_loss: 0.5973
+5/40, train_loss: 0.5977
+6/40, train_loss: 0.5969
+7/40, train_loss: 0.5994
+8/40, train_loss: 0.5986
+9/40, train_loss: 0.5987
+10/40, train_loss: 0.5959
+11/40, train_loss: 0.6002
+12/40, train_loss: 0.5992
+13/40, train_loss: 0.6035
+14/40, train_loss: 0.5991
+15/40, train_loss: 0.5946
+16/40, train_loss: 0.6037
+17/40, train_loss: 0.6010
+18/40, train_loss: 0.5950
+19/40, train_loss: 0.5997
+20/40, train_loss: 0.5985
+21/40, train_loss: 0.6006
+22/40, train_loss: 0.5989
+23/40, train_loss: 0.5975
+24/40, train_loss: 0.5938
+25/40, train_loss: 0.6075
+26/40, train_loss: 0.5977
+27/40, train_loss: 0.6074
+28/40, train_loss: 0.5929
+29/40, train_loss: 0.6005
+30/40, train_loss: 0.5984
+31/40, train_loss: 0.5939
+32/40, train_loss: 0.6036
+33/40, train_loss: 0.6035
+34/40, train_loss: 0.5989
+35/40, train_loss: 0.6012
+36/40, train_loss: 0.6006
+37/40, train_loss: 0.6003
+38/40, train_loss: 0.6016
+39/40, train_loss: 0.5956
+40/40, train_loss: 0.5975
+epoch 3 average loss: 0.5993
+current epoch: 3, current mean dice: 0.1718, current AUROC: 0.5473, current AUPRC: 0.5108, current PPV: 0.9187, current NNE: 1.0885, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 4/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5960
+2/40, train_loss: 0.6030
+3/40, train_loss: 0.5998
+4/40, train_loss: 0.5982
+5/40, train_loss: 0.5957
+6/40, train_loss: 0.5965
+7/40, train_loss: 0.5978
+8/40, train_loss: 0.5990
+9/40, train_loss: 0.5981
+10/40, train_loss: 0.5978
+11/40, train_loss: 0.5984
+12/40, train_loss: 0.6016
+13/40, train_loss: 0.5964
+14/40, train_loss: 0.5975
+15/40, train_loss: 0.6019
+16/40, train_loss: 0.6054
+17/40, train_loss: 0.5938
+18/40, train_loss: 0.5933
+19/40, train_loss: 0.5970
+20/40, train_loss: 0.5930
+21/40, train_loss: 0.5956
+22/40, train_loss: 0.5973
+23/40, train_loss: 0.5977
+24/40, train_loss: 0.6010
+25/40, train_loss: 0.5985
+26/40, train_loss: 0.5991
+27/40, train_loss: 0.5936
+28/40, train_loss: 0.6015
+29/40, train_loss: 0.5988
+30/40, train_loss: 0.6000
+31/40, train_loss: 0.5958
+32/40, train_loss: 0.6020
+33/40, train_loss: 0.6017
+34/40, train_loss: 0.5997
+35/40, train_loss: 0.6027
+36/40, train_loss: 0.5946
+37/40, train_loss: 0.5966
+38/40, train_loss: 0.6062
+39/40, train_loss: 0.5949
+40/40, train_loss: 0.5986
+epoch 4 average loss: 0.5984
+current epoch: 4, current mean dice: 0.1687, current AUROC: 0.5464, current AUPRC: 0.5137, current PPV: 0.9264, current NNE: 1.0795, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 5/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5953
+2/40, train_loss: 0.6018
+3/40, train_loss: 0.5946
+4/40, train_loss: 0.5944
+5/40, train_loss: 0.6035
+6/40, train_loss: 0.5972
+7/40, train_loss: 0.5952
+8/40, train_loss: 0.6022
+9/40, train_loss: 0.5955
+10/40, train_loss: 0.5947
+11/40, train_loss: 0.6000
+12/40, train_loss: 0.5943
+13/40, train_loss: 0.5953
+14/40, train_loss: 0.5998
+15/40, train_loss: 0.5986
+16/40, train_loss: 0.5968
+17/40, train_loss: 0.5957
+18/40, train_loss: 0.5990
+19/40, train_loss: 0.5974
+20/40, train_loss: 0.5984
+21/40, train_loss: 0.5967
+22/40, train_loss: 0.5931
+23/40, train_loss: 0.6052
+24/40, train_loss: 0.6015
+25/40, train_loss: 0.5982
+26/40, train_loss: 0.5972
+27/40, train_loss: 0.5936
+28/40, train_loss: 0.5960
+29/40, train_loss: 0.5986
+30/40, train_loss: 0.6006
+31/40, train_loss: 0.5961
+32/40, train_loss: 0.6006
+33/40, train_loss: 0.5951
+34/40, train_loss: 0.6044
+35/40, train_loss: 0.6008
+36/40, train_loss: 0.5964
+37/40, train_loss: 0.5987
+38/40, train_loss: 0.5990
+39/40, train_loss: 0.5989
+40/40, train_loss: 0.5947
+epoch 5 average loss: 0.5979
+current epoch: 5, current mean dice: 0.1633, current AUROC: 0.5446, current AUPRC: 0.5227, current PPV: 0.9478, current NNE: 1.0551, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 6/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5971
+2/40, train_loss: 0.5964
+3/40, train_loss: 0.5960
+4/40, train_loss: 0.6000
+5/40, train_loss: 0.5950
+6/40, train_loss: 0.5992
+7/40, train_loss: 0.6006
+8/40, train_loss: 0.6015
+9/40, train_loss: 0.5991
+10/40, train_loss: 0.6008
+11/40, train_loss: 0.5962
+12/40, train_loss: 0.6002
+13/40, train_loss: 0.5980
+14/40, train_loss: 0.5993
+15/40, train_loss: 0.5985
+16/40, train_loss: 0.5935
+17/40, train_loss: 0.5960
+18/40, train_loss: 0.5936
+19/40, train_loss: 0.5981
+20/40, train_loss: 0.5970
+21/40, train_loss: 0.5930
+22/40, train_loss: 0.5922
+23/40, train_loss: 0.5992
+24/40, train_loss: 0.5943
+25/40, train_loss: 0.5964
+26/40, train_loss: 0.6003
+27/40, train_loss: 0.5917
+28/40, train_loss: 0.6003
+29/40, train_loss: 0.5925
+30/40, train_loss: 0.5992
+31/40, train_loss: 0.5946
+32/40, train_loss: 0.5974
+33/40, train_loss: 0.5943
+34/40, train_loss: 0.5969
+35/40, train_loss: 0.6025
+36/40, train_loss: 0.5981
+37/40, train_loss: 0.5952
+38/40, train_loss: 0.5984
+39/40, train_loss: 0.6009
+40/40, train_loss: 0.5987
+epoch 6 average loss: 0.5973
+current epoch: 6, current mean dice: 0.1583, current AUROC: 0.5432, current AUPRC: 0.5214, current PPV: 0.9481, current NNE: 1.0547, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 7/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5976
+2/40, train_loss: 0.5967
+3/40, train_loss: 0.5911
+4/40, train_loss: 0.5994
+5/40, train_loss: 0.5930
+6/40, train_loss: 0.5960
+7/40, train_loss: 0.5995
+8/40, train_loss: 0.5947
+9/40, train_loss: 0.6010
+10/40, train_loss: 0.5987
+11/40, train_loss: 0.5964
+12/40, train_loss: 0.6028
+13/40, train_loss: 0.6015
+14/40, train_loss: 0.5972
+15/40, train_loss: 0.5911
+16/40, train_loss: 0.5940
+17/40, train_loss: 0.5996
+18/40, train_loss: 0.5977
+19/40, train_loss: 0.6009
+20/40, train_loss: 0.5939
+21/40, train_loss: 0.5962
+22/40, train_loss: 0.5970
+23/40, train_loss: 0.5996
+24/40, train_loss: 0.5978
+25/40, train_loss: 0.5940
+26/40, train_loss: 0.5951
+27/40, train_loss: 0.5991
+28/40, train_loss: 0.5980
+29/40, train_loss: 0.5940
+30/40, train_loss: 0.5935
+31/40, train_loss: 0.5961
+32/40, train_loss: 0.5999
+33/40, train_loss: 0.5905
+34/40, train_loss: 0.5942
+35/40, train_loss: 0.6008
+36/40, train_loss: 0.5985
+37/40, train_loss: 0.5916
+38/40, train_loss: 0.5985
+39/40, train_loss: 0.5928
+40/40, train_loss: 0.5986
+epoch 7 average loss: 0.5967
+current epoch: 7, current mean dice: 0.1591, current AUROC: 0.5435, current AUPRC: 0.5104, current PPV: 0.9256, current NNE: 1.0804, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 8/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5986
+2/40, train_loss: 0.5938
+3/40, train_loss: 0.5913
+4/40, train_loss: 0.6008
+5/40, train_loss: 0.5979
+6/40, train_loss: 0.5940
+7/40, train_loss: 0.6001
+8/40, train_loss: 0.5975
+9/40, train_loss: 0.5965
+10/40, train_loss: 0.5968
+11/40, train_loss: 0.5944
+12/40, train_loss: 0.5998
+13/40, train_loss: 0.5950
+14/40, train_loss: 0.5945
+15/40, train_loss: 0.5891
+16/40, train_loss: 0.5938
+17/40, train_loss: 0.5967
+18/40, train_loss: 0.6007
+19/40, train_loss: 0.5931
+20/40, train_loss: 0.5967
+21/40, train_loss: 0.5899
+22/40, train_loss: 0.5964
+23/40, train_loss: 0.5938
+24/40, train_loss: 0.5957
+25/40, train_loss: 0.5998
+26/40, train_loss: 0.5977
+27/40, train_loss: 0.6037
+28/40, train_loss: 0.5983
+29/40, train_loss: 0.5916
+30/40, train_loss: 0.5979
+31/40, train_loss: 0.5913
+32/40, train_loss: 0.5959
+33/40, train_loss: 0.5944
+34/40, train_loss: 0.5974
+35/40, train_loss: 0.5953
+36/40, train_loss: 0.6018
+37/40, train_loss: 0.5958
+38/40, train_loss: 0.5944
+39/40, train_loss: 0.6003
+40/40, train_loss: 0.5968
+epoch 8 average loss: 0.5962
+current epoch: 8, current mean dice: 0.1539, current AUROC: 0.5418, current AUPRC: 0.5217, current PPV: 0.9513, current NNE: 1.0512, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 9/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5995
+2/40, train_loss: 0.5964
+3/40, train_loss: 0.5939
+4/40, train_loss: 0.5988
+5/40, train_loss: 0.6034
+6/40, train_loss: 0.5981
+7/40, train_loss: 0.5979
+8/40, train_loss: 0.5960
+9/40, train_loss: 0.5964
+10/40, train_loss: 0.5937
+11/40, train_loss: 0.5942
+12/40, train_loss: 0.5953
+13/40, train_loss: 0.5999
+14/40, train_loss: 0.5956
+15/40, train_loss: 0.5993
+16/40, train_loss: 0.5896
+17/40, train_loss: 0.5981
+18/40, train_loss: 0.5962
+19/40, train_loss: 0.5972
+20/40, train_loss: 0.5931
+21/40, train_loss: 0.5945
+22/40, train_loss: 0.5997
+23/40, train_loss: 0.5947
+24/40, train_loss: 0.5956
+25/40, train_loss: 0.5943
+26/40, train_loss: 0.5930
+27/40, train_loss: 0.5962
+28/40, train_loss: 0.5925
+29/40, train_loss: 0.5950
+30/40, train_loss: 0.5958
+31/40, train_loss: 0.6004
+32/40, train_loss: 0.5962
+33/40, train_loss: 0.5976
+34/40, train_loss: 0.5931
+35/40, train_loss: 0.5920
+36/40, train_loss: 0.5980
+37/40, train_loss: 0.5974
+38/40, train_loss: 0.5986
+39/40, train_loss: 0.5979
+40/40, train_loss: 0.5967
+epoch 9 average loss: 0.5963
+current epoch: 9, current mean dice: 0.1618, current AUROC: 0.5443, current AUPRC: 0.5031, current PPV: 0.9092, current NNE: 1.0999, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 10/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5919
+2/40, train_loss: 0.5985
+3/40, train_loss: 0.5908
+4/40, train_loss: 0.5975
+5/40, train_loss: 0.5947
+6/40, train_loss: 0.5959
+7/40, train_loss: 0.5973
+8/40, train_loss: 0.5962
+9/40, train_loss: 0.5955
+10/40, train_loss: 0.5955
+11/40, train_loss: 0.5945
+12/40, train_loss: 0.6005
+13/40, train_loss: 0.5962
+14/40, train_loss: 0.5974
+15/40, train_loss: 0.6004
+16/40, train_loss: 0.5970
+17/40, train_loss: 0.5949
+18/40, train_loss: 0.5974
+19/40, train_loss: 0.5963
+20/40, train_loss: 0.5953
+21/40, train_loss: 0.5912
+22/40, train_loss: 0.6008
+23/40, train_loss: 0.5932
+24/40, train_loss: 0.5980
+25/40, train_loss: 0.5933
+26/40, train_loss: 0.5952
+27/40, train_loss: 0.5925
+28/40, train_loss: 0.5968
+29/40, train_loss: 0.6010
+30/40, train_loss: 0.6025
+31/40, train_loss: 0.5993
+32/40, train_loss: 0.5941
+33/40, train_loss: 0.5919
+34/40, train_loss: 0.5953
+35/40, train_loss: 0.5931
+36/40, train_loss: 0.5964
+37/40, train_loss: 0.5926
+38/40, train_loss: 0.5972
+39/40, train_loss: 0.5900
+40/40, train_loss: 0.5971
+epoch 10 average loss: 0.5959
+current epoch: 10, current mean dice: 0.1598, current AUROC: 0.5436, current AUPRC: 0.5208, current PPV: 0.9460, current NNE: 1.0570, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 11/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5967
+2/40, train_loss: 0.5967
+3/40, train_loss: 0.5945
+4/40, train_loss: 0.5960
+5/40, train_loss: 0.5990
+6/40, train_loss: 0.5993
+7/40, train_loss: 0.5988
+8/40, train_loss: 0.5939
+9/40, train_loss: 0.5978
+10/40, train_loss: 0.5929
+11/40, train_loss: 0.5940
+12/40, train_loss: 0.5982
+13/40, train_loss: 0.5967
+14/40, train_loss: 0.5898
+15/40, train_loss: 0.5945
+16/40, train_loss: 0.5967
+17/40, train_loss: 0.6003
+18/40, train_loss: 0.5920
+19/40, train_loss: 0.6010
+20/40, train_loss: 0.5956
+21/40, train_loss: 0.5962
+22/40, train_loss: 0.5926
+23/40, train_loss: 0.5922
+24/40, train_loss: 0.5930
+25/40, train_loss: 0.5981
+26/40, train_loss: 0.5953
+27/40, train_loss: 0.5970
+28/40, train_loss: 0.5936
+29/40, train_loss: 0.6000
+30/40, train_loss: 0.5983
+31/40, train_loss: 0.5985
+32/40, train_loss: 0.5876
+33/40, train_loss: 0.5981
+34/40, train_loss: 0.5966
+35/40, train_loss: 0.5928
+36/40, train_loss: 0.5968
+37/40, train_loss: 0.5962
+38/40, train_loss: 0.5947
+39/40, train_loss: 0.5919
+40/40, train_loss: 0.5883
+epoch 11 average loss: 0.5956
+current epoch: 11, current mean dice: 0.1526, current AUROC: 0.5414, current AUPRC: 0.5231, current PPV: 0.9549, current NNE: 1.0472, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 12/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.6012
+2/40, train_loss: 0.5927
+3/40, train_loss: 0.5951
+4/40, train_loss: 0.5946
+5/40, train_loss: 0.5925
+6/40, train_loss: 0.5951
+7/40, train_loss: 0.5994
+8/40, train_loss: 0.5956
+9/40, train_loss: 0.5928
+10/40, train_loss: 0.5940
+11/40, train_loss: 0.5958
+12/40, train_loss: 0.5976
+13/40, train_loss: 0.5956
+14/40, train_loss: 0.5969
+15/40, train_loss: 0.5947
+16/40, train_loss: 0.5904
+17/40, train_loss: 0.5984
+18/40, train_loss: 0.5899
+19/40, train_loss: 0.5987
+20/40, train_loss: 0.5990
+21/40, train_loss: 0.5965
+22/40, train_loss: 0.5957
+23/40, train_loss: 0.5961
+24/40, train_loss: 0.5957
+25/40, train_loss: 0.5923
+26/40, train_loss: 0.5907
+27/40, train_loss: 0.5992
+28/40, train_loss: 0.5978
+29/40, train_loss: 0.5980
+30/40, train_loss: 0.5953
+31/40, train_loss: 0.5944
+32/40, train_loss: 0.5944
+33/40, train_loss: 0.5939
+34/40, train_loss: 0.5970
+35/40, train_loss: 0.5912
+36/40, train_loss: 0.5956
+37/40, train_loss: 0.5954
+38/40, train_loss: 0.5929
+39/40, train_loss: 0.5941
+40/40, train_loss: 0.6004
+epoch 12 average loss: 0.5954
+current epoch: 12, current mean dice: 0.1573, current AUROC: 0.5428, current AUPRC: 0.5261, current PPV: 0.9582, current NNE: 1.0436, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 13/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5954
+2/40, train_loss: 0.5958
+3/40, train_loss: 0.5911
+4/40, train_loss: 0.5948
+5/40, train_loss: 0.5926
+6/40, train_loss: 0.5995
+7/40, train_loss: 0.5986
+8/40, train_loss: 0.5975
+9/40, train_loss: 0.5881
+10/40, train_loss: 0.5884
+11/40, train_loss: 0.5954
+12/40, train_loss: 0.5922
+13/40, train_loss: 0.5993
+14/40, train_loss: 0.5913
+15/40, train_loss: 0.5961
+16/40, train_loss: 0.5948
+17/40, train_loss: 0.5958
+18/40, train_loss: 0.5975
+19/40, train_loss: 0.5931
+20/40, train_loss: 0.5966
+21/40, train_loss: 0.5958
+22/40, train_loss: 0.5965
+23/40, train_loss: 0.5887
+24/40, train_loss: 0.5947
+25/40, train_loss: 0.5944
+26/40, train_loss: 0.5967
+27/40, train_loss: 0.5976
+28/40, train_loss: 0.6006
+29/40, train_loss: 0.5943
+30/40, train_loss: 0.5969
+31/40, train_loss: 0.5957
+32/40, train_loss: 0.6003
+33/40, train_loss: 0.5975
+34/40, train_loss: 0.5951
+35/40, train_loss: 0.5922
+36/40, train_loss: 0.5965
+37/40, train_loss: 0.5925
+38/40, train_loss: 0.5985
+39/40, train_loss: 0.5964
+40/40, train_loss: 0.5926
+epoch 13 average loss: 0.5952
+current epoch: 13, current mean dice: 0.1553, current AUROC: 0.5423, current AUPRC: 0.5244, current PPV: 0.9560, current NNE: 1.0460, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 14/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5966
+2/40, train_loss: 0.5927
+3/40, train_loss: 0.5935
+4/40, train_loss: 0.5936
+5/40, train_loss: 0.5963
+6/40, train_loss: 0.5943
+7/40, train_loss: 0.5934
+8/40, train_loss: 0.5983
+9/40, train_loss: 0.5946
+10/40, train_loss: 0.5954
+11/40, train_loss: 0.6011
+12/40, train_loss: 0.5968
+13/40, train_loss: 0.5918
+14/40, train_loss: 0.5987
+15/40, train_loss: 0.5925
+16/40, train_loss: 0.5928
+17/40, train_loss: 0.5946
+18/40, train_loss: 0.6004
+19/40, train_loss: 0.5943
+20/40, train_loss: 0.5964
+21/40, train_loss: 0.5930
+22/40, train_loss: 0.5946
+23/40, train_loss: 0.5948
+24/40, train_loss: 0.5943
+25/40, train_loss: 0.5866
+26/40, train_loss: 0.5972
+27/40, train_loss: 0.5923
+28/40, train_loss: 0.5920
+29/40, train_loss: 0.5945
+30/40, train_loss: 0.5970
+31/40, train_loss: 0.5974
+32/40, train_loss: 0.5975
+33/40, train_loss: 0.6016
+34/40, train_loss: 0.5954
+35/40, train_loss: 0.5963
+36/40, train_loss: 0.5991
+37/40, train_loss: 0.5926
+38/40, train_loss: 0.5968
+39/40, train_loss: 0.5941
+40/40, train_loss: 0.5920
+epoch 14 average loss: 0.5952
+current epoch: 14, current mean dice: 0.1617, current AUROC: 0.5442, current AUPRC: 0.5202, current PPV: 0.9437, current NNE: 1.0596, best mean dice: 0.1793 at epoch: 2
+----------
+epoch 15/15
+Current learning rate: 0.300000
+1/40, train_loss: 0.5969
+2/40, train_loss: 0.5923
+3/40, train_loss: 0.6023
+4/40, train_loss: 0.5948
+5/40, train_loss: 0.5945
+6/40, train_loss: 0.5922
+7/40, train_loss: 0.5960
+8/40, train_loss: 0.5968
+9/40, train_loss: 0.5949
+10/40, train_loss: 0.5948
+11/40, train_loss: 0.5942
+12/40, train_loss: 0.5952
+13/40, train_loss: 0.5922
+14/40, train_loss: 0.5947
+15/40, train_loss: 0.5966
+16/40, train_loss: 0.5925
+17/40, train_loss: 0.5948
+18/40, train_loss: 0.5987
+19/40, train_loss: 0.5909
+20/40, train_loss: 0.5916
+21/40, train_loss: 0.5941
+22/40, train_loss: 0.5975
+23/40, train_loss: 0.5954
+24/40, train_loss: 0.5944
+25/40, train_loss: 0.5898
+26/40, train_loss: 0.6015
+27/40, train_loss: 0.6000
+28/40, train_loss: 0.5993
+29/40, train_loss: 0.5922
+30/40, train_loss: 0.5950
+31/40, train_loss: 0.5915
+32/40, train_loss: 0.5959
+33/40, train_loss: 0.5916
+34/40, train_loss: 0.5937
+35/40, train_loss: 0.5970
+36/40, train_loss: 0.5951
+37/40, train_loss: 0.5976
+38/40, train_loss: 0.5966
+39/40, train_loss: 0.5923
+40/40, train_loss: 0.5962
+epoch 15 average loss: 0.5951
+current epoch: 15, current mean dice: 0.1584, current AUROC: 0.5431, current AUPRC: 0.5278, current PPV: 0.9610, current NNE: 1.0406, best mean dice: 0.1793 at epoch: 2
+train completed, best_metric: 0.1793 at epoch: 2
